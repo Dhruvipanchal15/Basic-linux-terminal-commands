@@ -1,0 +1,76 @@
+Note : this are individual commands used to perform 
+programs. echo command is used to print lines and describe the command use
+
+echo "long listing of f1.txt"
+cat f1.txt
+
+echo "Total Lines"
+wc -l f1.txt
+
+echo "Total Characters"
+wc -c f1.txt
+
+echo "Hidden Files"
+ls -a
+
+echo "Display Content of File"
+touch 1.txt
+cat 1.txt
+
+echo "Display version of UNIX"
+uname
+
+echo "Help of cat command"
+cat --help
+echo "Calender of current month and year"
+cal 2024
+
+echo "Terminal Type"
+tty
+
+
+echo "User name"
+uname
+
+echo "User Home Directory"
+~
+
+echo "Display Current month"
+cal
+
+echo "Machine name"
+uname
+
+echo " to check Active Processes:"
+ps -a
+
+echo "1. Display dynamic real-time view of running system"
+echo "2. Display full format list of processes"
+echo "3. Display your hostname on terminal"
+echo "4. Display routing table"
+read -p "Enter choice [1-4]: " choice
+case $choice in
+1) top;;
+2) ps aux;;
+3) hostname;;
+4) route -n;;
+*) echo "Invalid choice!";;
+esac
+
+
+echo "First 3 lines"
+head -3 emp.txt
+echo ""
+
+echo "Sorting"
+sort emps.txt
+echo ""
+
+echo "Last 3 Lines"
+tail -3 emps.txt
+echo ""
+
+echo "Displaying Eno and City"
+awk '{print $1,$3}' emsp.txt
+echo ""
+
