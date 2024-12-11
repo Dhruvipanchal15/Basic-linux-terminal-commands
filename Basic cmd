@@ -1,0 +1,30 @@
+- just enter this commands on Linux terminal to get output
+
+1. pwd – Print the current working directory.
+
+
+2. ls – List files and directories in the current directory.
+
+
+3. cd <directory> – Change directory.
+
+
+4. mkdir <directory> – Create a new directory.
+
+
+5. rmdir <directory> – Remove an empty directory.
+
+
+6. rm <file> – Remove a file.
+
+
+7. cp <source> <destination> – Copy files or directories.
+
+
+8. mv <source> <destination> – Move or rename files or directories.
+
+
+9. cat <file> – Display the contents of a file.
+
+
+10. man <command> – Show the manual or help for a command.
